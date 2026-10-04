@@ -12,7 +12,7 @@ python3 -m http.server 8080
 
 ## GitHub Pages
 
-在 Settings → Pages 選擇 Deploy from a branch，分支選 main，資料夾選 / (root)，儲存。若使用私有儲存庫，GitHub 方案必須支援私有儲存庫 Pages。網站可公開存取，請依需求確認 Pages 可見性；此網站不包含使用者媒體。
+在 Settings → Pages → Build and deployment → Source 選擇 GitHub Actions。接著進入 Actions → Deploy photo studio to GitHub Pages → Run workflow，分支選 main，執行。後續推送 main 會自動發布。若使用私有儲存庫，GitHub 方案必須支援私有儲存庫 Pages。網站可公開存取，請依需求確認 Pages 可見性；此網站不包含使用者媒體。
 
 ## 功能
 
